@@ -8,7 +8,7 @@ def validate_tidy(df: pd.DataFrame) -> None:
     'time' present. Silently no-op if pandera isn't installed.
     """
     try:
-        import pandera as pa
+        import pandera.pandas as pa
         import pandera.typing as pat
 
         class TidySchema(pa.DataFrameModel):
