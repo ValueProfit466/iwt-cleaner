@@ -1,7 +1,3 @@
-Below is a **beginner‑friendly README** you can drop into your repository. It is written for non‑coders and walks through installing VS Code, Python, Git, setting up the right environment(s), and running the tool via simple commands. It aligns with the structure and commands already in your project.&#x20;
-
----
-
 # IWT Cleaner — Zero‑Coding Quick Start
 
 **What this tool does (in plain English):**
