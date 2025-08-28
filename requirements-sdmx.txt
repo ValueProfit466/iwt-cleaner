@@ -1,0 +1,7 @@
+# SDMX-only env (pydantic v1 line)
+pandas<2.1
+numpy<2
+pydantic<2
+pandasdmx==1.10.0
+requests>=2.31
+lxml>=4.9

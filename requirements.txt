@@ -1,0 +1,21 @@
+# --- Core analytics stack (pandas 2.2 + pydantic 2) ---
+pandas>=2.2,<3
+numpy>=1.26
+pyarrow>=16.0
+tqdm>=4.66
+pyyaml>=6.0
+xlsxwriter>=3.2
+
+# --- Source adapters ---
+eurostat>=1.1.0
+# NOTE: pandasdmx is intentionally excluded; see sdmx extras below.
+
+# --- Data quality / typing (all pydantic v2 compatible) ---
+pydantic>=2.6,<3
+pandera>=0.17  # first line with pydantic v2 support
+ydata-profiling>=4.16  # recent line; compatible with pandas 2.2 and pydantic v2
+
+# --- I/O / speedups ---
+polars>=1.5
+openpyxl>=3.1.2
+fastparquet>=2023.10

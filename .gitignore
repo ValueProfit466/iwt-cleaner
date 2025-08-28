@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv*/
+.env*/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Data files (keep only scripts, not raw Eurostat downloads)
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.gz
+
+# Reports (optional – you can regenerate them)
+*.profile.html
+*.json
